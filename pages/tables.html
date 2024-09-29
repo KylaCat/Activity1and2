@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Simple Structure</title>
+    <link rel="stylesheet" href="../CSS/customstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Collage of Information and Computing Science</h1>
+        <h3>Bachelor of Science in Information System</h3>
+        <div class ="container">
+            <a href="../index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="inquiry.html">Inquiry</a> |
+            <a href="profile.html">Profile</a> |
+
+        </div>
+    </header>
+
+    <section>
+        <nav>
+            <ul class="navigation_menu">
+                <li><a href="heading.html">Heading</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="list.html">HTML List</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="form.post.php">Form Post Method</a></li>
+                <li><a href="image.html">Image</a></li>
+            </ul>
+
+        </nav>
+        <article>
+            <h1>Tables</h1>
+            <p align="Justify">
+                <table border="1" class="table_data">
+                <colgroup>
+                    <col style="width: 40;">
+                    <col style="width: 30;">
+                    <col style="width: 20;">
+                </colgroup>
+                    
+                    <tr>
+                       <th>Name</th>
+                       <th>Gender</th>
+                       <th>Age</th>
+                    </tr>
+                    <tr>
+                       <td>Kyla Zulueta</td>
+                       <td>Female</td>
+                       <td>21</td>
+                    </tr>
+                    <tr>
+                       <td>Florelyn Moreno</td>
+                       <td>Female</td>
+                       <td>20</td>
+                    </tr>
+                    <tr>
+                       <td>Manilyn Pastrana</td>
+                       <td>Female</td>
+                       <td>20</td>
+                    </tr>
+                    </table><br>
+
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Food</th>
+                                <th>Prize</th>
+                                <th>Taste</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3">SPAGHETTI</td>
+                                <td>25.00</td>
+                                <td>YUMMY</td>
+                            </tr>
+                            <tr>
+                                <td>20.00</td>
+                                <td>YUMMY</td>
+                            </tr>
+                            <tr>
+                                <td>30.00</td>
+                                <td>DELICIOUS</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2"><small><b>Information</b></small></td>
+                                <td><small>info</small></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <h3><b>Nested Table</b></h3>
+                    <table border="1">
+                        <figcaption><b>Table 1: </b>This is the sample data of a table</figcaption>
+                        <thead>
+                            <tr>
+                               
+                                <th colspan="3">Content of a table</th> 
+                            </tr>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Prize</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dress
+                                    <table border="1">
+                                        <tr>
+                                            <th>Size</th>
+                                            <th>Color</th>
+                                        </tr>
+                                        <tbody>
+                                            <tr>
+                                                <td>30</td>
+                                                <td>Pink</td>
+                                            </tr>
+                                            <tr>
+                                                <td>35</td>
+                                                <td>Sky blue</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>20</td>
+                                <td>$50</td>
+                            </tr>
+                            <tr>
+                                <td>Sandals</td>
+                                <td>10</td>
+                                <td>$60</td>
+                            </tr>
+                            <tr>
+                                <td>Shorts</td>
+                                <td>12</td>
+                                <td>$20</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+            </p>
+        </article>
+
+    </section>
+    <footer>
+        <h2>MarSu</h2>
+        <div class="footer_menu">
+            <a href="about.html">About</a> |
+            <a href="policy.html">Policy</a> |
+            <a href="terms.html">Terms</a> |
+            <a href="privacy.html">Privacy</a> |
+            <a href="faq.html">FAQ</a> |
+            <a href="context.html">Context</a> |
+        </div>
+        <div>
+            <p><b>Copyright &copy 2024. </b>MarSu Sta Cruz Campus, BSIS Student</p>
+        </div>
+    </footer>
+
+</body>
+</html>
